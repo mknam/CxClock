@@ -16,7 +16,7 @@ import java.util.Calendar;
 /**
  * Created by miji on 16. 1. 12.
  */
-public class ClockView extends SurfaceView
+public class CxAnalogClock extends SurfaceView
     implements SurfaceHolder.Callback, Runnable {
 
     /**
@@ -52,26 +52,26 @@ public class ClockView extends SurfaceView
 
 
 
-    public ClockView(Context context) {
+    public CxAnalogClock(Context context) {
         super(context);
 
         init(context, null);
     }
 
-    public ClockView(Context context, AttributeSet attrs) {
+    public CxAnalogClock(Context context, AttributeSet attrs) {
         super(context, attrs);
 
         init(context, attrs);
     }
 
-    public ClockView(Context context, AttributeSet attrs, int defStyleAttr) {
+    public CxAnalogClock(Context context, AttributeSet attrs, int defStyleAttr) {
         super(context, attrs, defStyleAttr);
 
         init(context, attrs);
     }
 
     @TargetApi(Build.VERSION_CODES.LOLLIPOP)
-    public ClockView(Context context, AttributeSet attrs, int defStyleAttr, int defStyleRes) {
+    public CxAnalogClock(Context context, AttributeSet attrs, int defStyleAttr, int defStyleRes) {
         super(context, attrs, defStyleAttr, defStyleRes);
 
         init(context, attrs);
