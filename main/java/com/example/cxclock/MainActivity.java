@@ -9,12 +9,12 @@ import android.view.WindowManager;
 
 public class MainActivity extends AppCompatActivity {
 
-    private ClockView mClkView;
+    private CxAnalogClock mClkView;
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
-        mClkView = new ClockView(this);
+        mClkView = new CxAnalogClock(this);
         setContentView(mClkView);
 
         //# Hide Action Bar

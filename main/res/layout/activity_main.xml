@@ -12,7 +12,7 @@
     tools:context="com.example.cxclock.MainActivity">
 
 
-    <com.example.cxclock.ClockView
+    <com.example.cxclock.CxAnalogClock
         android:id="@+id/clockview"
         android:layout_width="match_parent"
         android:layout_height="match_parent"/>
